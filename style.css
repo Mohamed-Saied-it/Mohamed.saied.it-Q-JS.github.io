@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300;400;600&family=RocknRoll+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif, 'Akaya Telivigala';
+    margin: 0;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: cyan;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px rgba(100, 100, 100, 0.10);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
+.quiz-header {
+    padding:3rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0; 
+}
+ul li{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+ul li label {
+    cursor: pointer;
+}
+button {
+    background-color: #7b6bd3;
+    border: none;
+    color: white;
+    display: block;
+    font-family: inherit;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3010e6;
+}
